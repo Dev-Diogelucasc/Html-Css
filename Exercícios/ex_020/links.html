@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(121, 9, 226);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: white;
+        }
+        .especial{
+            background-color: rgba(0, 0, 0, 0.153);
+        }
+
+        .especial::before{
+            content: '⯌';
+        }
+
+        .especial::after {
+            content: '⯌';
+            color: rgba(137, 43, 226, 0.163);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/diogelucasc/?hl=pt" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@diogeff2777" target="_blank">Canal no YT</a></li>
+    </ul>
+</body>
+</html>
