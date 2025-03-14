@@ -27,55 +27,64 @@
 */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+html, body {
+  min-height: 100vh;
+  background-color: darkgray;
 }
 
 header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    padding: 45px;
-    justify-content: center;
-    align-items: center;
-    
-
-    font-family: "Passion One", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: larger;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-nav {
-    font-family: "Passion One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: small;
+header > h1 {
+  padding-top: 50px;
+  font-variant: small-caps;
 }
 
-main {
-    font-family: "Sriracha", cursive;
-    font-weight: 400;
-    font-style: unset;
-    margin: 100px;
+header > p {
+  padding-bottom: 50px;
 }
- .joaninha {
-    height: 97vh;
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-size: 100%;
- }
 
+header a, footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  line-height: 2em;
+  padding-left: 30px;
+}
+section.normal {
+  background-color: white;
+  color: black;
+}
+
+section.imagem {
+  background-color: rgba(0, 0, 0, 0.212);
+  color: white;  
+}
+
+section.imagem > p {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.151);
+}
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 50px;
-    padding-top: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
 }
