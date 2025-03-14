@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/* .passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+} 
+  
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: larger;
+}
+
+nav {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+}
+
+main {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: unset;
+    margin: 100px;
+}
+ .joaninha {
+    height: 97vh;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: 100%;
+ }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
