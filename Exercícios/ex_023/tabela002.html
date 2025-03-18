@@ -12,6 +12,7 @@
         table {
             width: 700px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -24,6 +25,16 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.795);
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
 
         thead, tfoot {
